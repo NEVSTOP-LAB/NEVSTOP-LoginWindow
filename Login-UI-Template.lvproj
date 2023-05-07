@@ -10,8 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Login-UI" Type="Folder" URL="../Login-UI">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Login-UI" Type="Folder">
+			<Item Name="Login-UI.lvlib" Type="Library" URL="../Login-UI.llb/Login-UI.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
