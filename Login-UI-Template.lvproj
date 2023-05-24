@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Example" Type="Folder">
+			<Item Name="TestMain.vi" Type="VI" URL="../Login-UI/TestMain.vi"/>
+		</Item>
 		<Item Name="Login-UI" Type="Folder">
 			<Item Name="Login-UI.lvlib" Type="Library" URL="../Login-UI/Login-UI.lvlib"/>
 		</Item>
