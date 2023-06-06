@@ -12,6 +12,7 @@
 			<Item Name="_DeleteUser.vi" Type="VI" URL="../_DeleteUser.vi"/>
 			<Item Name="InitUserTable.vi" Type="VI" URL="../InitUserTable.vi"/>
 			<Item Name="UpdateUserTable.vi" Type="VI" URL="../UpdateUserTable.vi"/>
+			<Item Name="_UpdateUserInfo.vi" Type="VI" URL="../_UpdateUserInfo.vi"/>
 		</Item>
 		<Item Name="_Password-File-Path.vi" Type="VI" URL="../_Password-File-Path.vi"/>
 		<Item Name="_password_db.vi" Type="VI" URL="../_password_db.vi"/>
