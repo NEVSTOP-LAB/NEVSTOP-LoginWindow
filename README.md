@@ -1,5 +1,3 @@
-# Login-UI-Template
-
 通用的登录对话框
 
 ![image](https://user-images.githubusercontent.com/8196752/236981786-fca36fd4-49c1-49fd-b8b5-835fe1658ea0.png)
