@@ -5,6 +5,15 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Support" Type="Folder">
+		<Item Name="Admin Manager" Type="Folder">
+			<Item Name="_CheckPasswordLegal.vi" Type="VI" URL="../_CheckPasswordLegal.vi"/>
+			<Item Name="_CheckUserExist.vi" Type="VI" URL="../_CheckUserExist.vi"/>
+			<Item Name="_CheckUserLegal.vi" Type="VI" URL="../_CheckUserLegal.vi"/>
+			<Item Name="_DeleteUser.vi" Type="VI" URL="../_DeleteUser.vi"/>
+			<Item Name="InitUserTable.vi" Type="VI" URL="../InitUserTable.vi"/>
+			<Item Name="UpdateUserTable.vi" Type="VI" URL="../UpdateUserTable.vi"/>
+			<Item Name="_UpdateUserInfo.vi" Type="VI" URL="../_UpdateUserInfo.vi"/>
+		</Item>
 		<Item Name="_Password-File-Path.vi" Type="VI" URL="../_Password-File-Path.vi"/>
 		<Item Name="_password_db.vi" Type="VI" URL="../_password_db.vi"/>
 		<Item Name="_password_db_oper.ctl" Type="VI" URL="../_password_db_oper.ctl"/>
@@ -17,6 +26,8 @@
 		<Item Name="User-Role.ctl" Type="VI" URL="../User-Role.ctl"/>
 	</Item>
 	<Item Name="Windows" Type="Folder">
+		<Item Name="AddUser-Windows.vi" Type="VI" URL="../AddUser-Windows.vi"/>
+		<Item Name="EditUser-Window.vi" Type="VI" URL="../EditUser-Window.vi"/>
 		<Item Name="UserMgr-Window.vi" Type="VI" URL="../UserMgr-Window.vi"/>
 		<Item Name="ChangePassword-Window.vi" Type="VI" URL="../ChangePassword-Window.vi"/>
 	</Item>
