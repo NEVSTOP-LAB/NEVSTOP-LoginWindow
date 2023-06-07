@@ -6,31 +6,31 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Admin Manager" Type="Folder">
-			<Item Name="_CheckPasswordLegal.vi" Type="VI" URL="../_CheckPasswordLegal.vi"/>
-			<Item Name="_CheckUserExist.vi" Type="VI" URL="../_CheckUserExist.vi"/>
-			<Item Name="_CheckUserLegal.vi" Type="VI" URL="../_CheckUserLegal.vi"/>
-			<Item Name="_DeleteUser.vi" Type="VI" URL="../_DeleteUser.vi"/>
-			<Item Name="InitUserTable.vi" Type="VI" URL="../InitUserTable.vi"/>
-			<Item Name="UpdateUserTable.vi" Type="VI" URL="../UpdateUserTable.vi"/>
-			<Item Name="_UpdateUserInfo.vi" Type="VI" URL="../_UpdateUserInfo.vi"/>
+			<Item Name="_CheckPasswordLegal.vi" Type="VI" URL="../_Support/Admin Manager/_CheckPasswordLegal.vi"/>
+			<Item Name="_CheckUserExist.vi" Type="VI" URL="../_Support/Admin Manager/_CheckUserExist.vi"/>
+			<Item Name="_CheckUserLegal.vi" Type="VI" URL="../_Support/Admin Manager/_CheckUserLegal.vi"/>
+			<Item Name="_DeleteUser.vi" Type="VI" URL="../_Support/Admin Manager/_DeleteUser.vi"/>
+			<Item Name="InitUserTable.vi" Type="VI" URL="../_Support/Admin Manager/InitUserTable.vi"/>
+			<Item Name="UpdateUserTable.vi" Type="VI" URL="../_Support/Admin Manager/UpdateUserTable.vi"/>
+			<Item Name="_UpdateUserInfo.vi" Type="VI" URL="../_Support/Admin Manager/_UpdateUserInfo.vi"/>
 		</Item>
-		<Item Name="_Password-File-Path.vi" Type="VI" URL="../_Password-File-Path.vi"/>
-		<Item Name="_password_db.vi" Type="VI" URL="../_password_db.vi"/>
-		<Item Name="_password_db_oper.ctl" Type="VI" URL="../_password_db_oper.ctl"/>
-		<Item Name="_Predefined_SuperUser.vi" Type="VI" URL="../_Predefined_SuperUser.vi"/>
-		<Item Name="_Read Users From File.vi" Type="VI" URL="../_Read Users From File.vi"/>
-		<Item Name="_Save Users to File.vi" Type="VI" URL="../_Save Users to File.vi"/>
-		<Item Name="EventHandler-Change Order By Enter Key.vi" Type="VI" URL="../EventHandler-Change Order By Enter Key.vi"/>
+		<Item Name="_Password-File-Path.vi" Type="VI" URL="../_Support/_Password-File-Path.vi"/>
+		<Item Name="_password_db.vi" Type="VI" URL="../_Support/_password_db.vi"/>
+		<Item Name="_password_db_oper.ctl" Type="VI" URL="../_Support/_password_db_oper.ctl"/>
+		<Item Name="_Predefined_SuperUser.vi" Type="VI" URL="../_Support/_Predefined_SuperUser.vi"/>
+		<Item Name="_Read Users From File.vi" Type="VI" URL="../_Support/_Read Users From File.vi"/>
+		<Item Name="_Save Users to File.vi" Type="VI" URL="../_Support/_Save Users to File.vi"/>
+		<Item Name="EventHandler-Change Order By Enter Key.vi" Type="VI" URL="../_Support/EventHandler-Change Order By Enter Key.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
-		<Item Name="User-Info.ctl" Type="VI" URL="../User-Info.ctl"/>
-		<Item Name="User-Role.ctl" Type="VI" URL="../User-Role.ctl"/>
+		<Item Name="User-Info.ctl" Type="VI" URL="../_Typedef/User-Info.ctl"/>
+		<Item Name="User-Role.ctl" Type="VI" URL="../_Typedef/User-Role.ctl"/>
 	</Item>
 	<Item Name="Windows" Type="Folder">
-		<Item Name="AddUser-Windows.vi" Type="VI" URL="../AddUser-Windows.vi"/>
-		<Item Name="EditUser-Window.vi" Type="VI" URL="../EditUser-Window.vi"/>
-		<Item Name="UserMgr-Window.vi" Type="VI" URL="../UserMgr-Window.vi"/>
-		<Item Name="ChangePassword-Window.vi" Type="VI" URL="../ChangePassword-Window.vi"/>
+		<Item Name="AddUser-Windows.vi" Type="VI" URL="../_Windows/AddUser-Windows.vi"/>
+		<Item Name="EditUser-Window.vi" Type="VI" URL="../_Windows/EditUser-Window.vi"/>
+		<Item Name="UserMgr-Window.vi" Type="VI" URL="../_Windows/UserMgr-Window.vi"/>
+		<Item Name="ChangePassword-Window.vi" Type="VI" URL="../_Windows/ChangePassword-Window.vi"/>
 	</Item>
 	<Item Name="Login-Window.vi" Type="VI" URL="../Login-Window.vi"/>
 </Library>
