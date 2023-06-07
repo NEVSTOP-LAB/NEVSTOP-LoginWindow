@@ -20,6 +20,7 @@
 		<Item Name="_Predefined_SuperUser.vi" Type="VI" URL="../_Predefined_SuperUser.vi"/>
 		<Item Name="_Read Users From File.vi" Type="VI" URL="../_Read Users From File.vi"/>
 		<Item Name="_Save Users to File.vi" Type="VI" URL="../_Save Users to File.vi"/>
+		<Item Name="EventHandler-Change Order By Enter Key.vi" Type="VI" URL="../EventHandler-Change Order By Enter Key.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="User-Info.ctl" Type="VI" URL="../User-Info.ctl"/>
