@@ -24,4 +24,5 @@
 	</Item>
 	<Item Name="PwdMgr.lvclass" Type="LVClass" URL="../PwdMgr/PwdMgr.lvclass"/>
 	<Item Name="Login-Window.vi" Type="VI" URL="../Login-Window.vi"/>
+	<Item Name="Login-Options.ctl" Type="VI" URL="../Login-Options.ctl"/>
 </Library>
