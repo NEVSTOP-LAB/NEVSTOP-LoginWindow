@@ -22,6 +22,6 @@
 		<Item Name="UserMgr-Window.vi" Type="VI" URL="../_Windows/UserMgr-Window.vi"/>
 		<Item Name="ChangePassword-Window.vi" Type="VI" URL="../_Windows/ChangePassword-Window.vi"/>
 	</Item>
-	<Item Name="Login-Window.vi" Type="VI" URL="../Login-Window.vi"/>
 	<Item Name="PwdMgr.lvclass" Type="LVClass" URL="../PwdMgr/PwdMgr.lvclass"/>
+	<Item Name="Login-Window.vi" Type="VI" URL="../Login-Window.vi"/>
 </Library>
