@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-05-29 22:15:08" Modified_Date="2024-02-06 14:10:16" Creator="yaoli" Comments="" ID="aa84aa019fddc28244dc53431436408c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-05-29 22:15:08" Modified_Date="2024-02-18 21:31:41" Creator="yaoli" Comments="" ID="979202ee78c64ece13e38f9b10e92693">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_LoginWindow</Package_File_Name>
     <Library_Version>0.1.0.1</Library_Version>
@@ -18,8 +18,8 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_project_lib_serializer_base64 &gt;=1.0.2.4</Additional_External_Dependencies>
-      <Additional_External_Dependencies>nevstop_programming_palette &gt;=2023.5.28.221447</Additional_External_Dependencies>
+      <Additional_External_Dependencies>nevstop_programming_palette &gt;=2024.1.31.152822</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_string &gt;=2.0.0.5</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
