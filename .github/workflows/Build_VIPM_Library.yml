@@ -29,10 +29,10 @@ jobs:
 
       # Get env variables
       # https://github.com/marketplace/actions/github-environment-variables-action
-      - uses: FranzDiebold/github-env-vars-action@v2
+      - uses: FranzDiebold/github-env-vars-action@v2.8.0
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4.1.1
 
       - name: install NEVSTOP-Programming-Palette
         uses: NEVSTOP-LAB/InstallNevstopPackage@main
@@ -51,7 +51,7 @@ jobs:
           VipbPath: ${{ github.workspace }}
 
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v3.0.0
+        uses: actions/upload-artifact@v4.3.1
         with:
           # Artifact name
           name: ${{ steps.build-vip.outputs.vipName }}
@@ -63,7 +63,7 @@ jobs:
       # Backup generated files by ftp
       # https://github.com/marketplace/actions/simple-ftp-upload
       - name: backup Build Artifact by ftp
-        uses: dennisameling/ftp-upload-action@v1.0.9
+        uses: dennisameling/ftp-upload-action@v1.0.16
         with:
           server: ${{ secrets.VIPM_FTP_IP }}
           port: ${{ secrets.VIPM_FTP_PORT }}
