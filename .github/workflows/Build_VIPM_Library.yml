@@ -22,7 +22,7 @@ jobs:
   # This workflow contains a single job called "build"
   Build_VIPM_Library:
     # The type of runner that the job will run on
-    runs-on: [self-hosted, lv2017]
+    runs-on: [self-hosted, lv2020]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -37,7 +37,7 @@ jobs:
       - name: install NEVSTOP-Programming-Palette
         uses: NEVSTOP-LAB/InstallNevstopPackage@main
         with:
-          LabVIEW_Version: 2017
+          LabVIEW_Version: 2020
           NEVSTOP-FTP-IP: ${{ secrets.VIPM_FTP_IP }}
           NEVSTOP-FTP-PORT: ${{ secrets.VIPM_FTP_PORT }}
           PackageName: NEVSTOP-Programming-Palette
@@ -47,7 +47,7 @@ jobs:
         id: build-vip
         uses: NEVSTOP-LAB/vipm-BuildViPackage@main
         with:
-          LabVIEW_Version: 2017
+          LabVIEW_Version: 2020
           VipbPath: ${{ github.workspace }}
 
       - name: Upload a Build Artifact
