@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-05-29 22:15:08" Modified_Date="2025-03-21 16:27:23" Creator="yaoli" Comments="" ID="cce3bc2a7eaa9ffc1462d87f6bebfae5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-05-29 22:15:08" Modified_Date="2025-03-26 22:24:04" Creator="yaoli" Comments="" ID="c9ea2a5a98a754859ef0b415e4425558">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_LoginWindow</Package_File_Name>
     <Library_Version>0.1.0.1</Library_Version>
@@ -35,7 +35,7 @@
       <Description/>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
-      <URL>https://github.com/NEVSTOP-LAB/Login-UI-Template</URL>
+      <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-LoginWindow</URL>
       <Release_Notes/>
     </Description>
     <Destinations>
