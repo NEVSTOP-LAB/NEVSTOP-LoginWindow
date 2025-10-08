@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-05-29 22:15:08" Modified_Date="2025-03-26 22:24:04" Creator="yaoli" Comments="" ID="c9ea2a5a98a754859ef0b415e4425558">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-05-29 22:15:08" Modified_Date="2025-10-08 23:25:12" Creator="yaoli" Comments="" ID="0fa6d02f222b996e1f09efde6c9d0b5b">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_LoginWindow</Package_File_Name>
     <Library_Version>0.1.0.1</Library_Version>
@@ -18,7 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
-      <Additional_External_Dependencies>nevstop_programming_palette &gt;=2024.8.30.182355</Additional_External_Dependencies>
+      <Additional_External_Dependencies>nevstop_programming_palette &gt;=2025.9.28.110359</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_string &gt;=2.0.0.5</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
