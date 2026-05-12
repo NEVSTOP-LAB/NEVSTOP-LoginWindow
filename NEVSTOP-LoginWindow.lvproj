@@ -24,7 +24,7 @@
 		<Item Name="Example" Type="Folder">
 			<Item Name="Login-Window1.vi" Type="VI" URL="../Login-UI/Example/Login-Window1.vi"/>
 			<Item Name="Login-Window2.vi" Type="VI" URL="../Login-UI/Example/Login-Window2.vi"/>
-			<Item Name="TestMain.vi" Type="VI" URL="../Login-UI/TestMain.vi"/>
+			<Item Name="TestMain.vi" Type="VI" URL="../Login-UI/Example/TestMain.vi"/>
 		</Item>
 		<Item Name="Login-UI" Type="Folder">
 			<Item Name="Login-UI.lvlib" Type="Library" URL="../Login-UI/Login-UI.lvlib"/>
