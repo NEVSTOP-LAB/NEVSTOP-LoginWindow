@@ -2,9 +2,8 @@
 
 Example
 
-![example](.github/Login-Window1.png)
+//一头雾水，没看懂怎么用
 
 用法
 
-![image](https://user-images.githubusercontent.com/8196752/236981891-daa79546-b0ca-4008-90c2-8c5d37d090c0.png)
-新的推送
+//没看明白怎么用，不知道用户管理如何如何新增新的用户和删除用户
