@@ -1,9 +1,10 @@
 通用的登录对话框
 
-Example
+这个仓库有以下功能，主要是为了满足一些交付项目中对于用户管理的需求，基本都有了。
 
-![example](.github/Login-Window1.png)
+仓库功能：
 
-用法
+使用OOP实现的用户管理，默认的情况下，会将用户信息保存到本地的文本中，可以使用类扩展网络验证等功能；
+对话框 登录界面、用户管理、密码修改等都有
+登录界面完全使用 Control Reference 完成，因此可以通过图片贴图定制一个登录界面，适应各种情况
 
-![image](https://user-images.githubusercontent.com/8196752/236981891-daa79546-b0ca-4008-90c2-8c5d37d090c0.png)
