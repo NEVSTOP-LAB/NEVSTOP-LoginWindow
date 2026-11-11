@@ -1,5 +1,7 @@
 # NEVSTOP-LoginWindow
 
+[中文](./README.md) | [English](./README(en).md)
+
 面向 LabVIEW 的通用登录对话框：内置用户与密码管理，登录结果按角色返回，可直接嵌入现有应用。
 
 ![登录窗口示例](.github/Login-Window1.png)
