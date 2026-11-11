@@ -11,22 +11,15 @@
 - 角色化入口：管理员管理全部用户，其他角色只能修改自己的密码
 - 可配置窗口行为：隐藏主界面、失败重试、记住上次用户名、标题栏
 - 键盘友好：Tab 切换焦点，输入框回车跳到下一个输入框，Esc 关闭窗口
-- 窗口尺寸可按内容自适应（`Fit to Large Dec?`）
 
 ## 环境要求
 
 - LabVIEW 2020 或更高版本
-- VIPM 依赖：`JKI State Machine`、`NEVSTOP Programming Palette`
+- 依赖：`JKI State Machine`、`NEVSTOP Programming Palette`（可通过 VIPM 安装）
 
 ## 安装
 
-### VIPM
-
-安装 `NEVSTOP-LoginWindow` 包，默认安装到 `<user.lib>\_NEVSTOP\NEVSTOP-LoginWindow`。
-
-### 源码
-
-用 LabVIEW 打开 `NEVSTOP-LoginWindow.lvproj`，把 `Login-UI.lvlib` 及其中的 `PwdMgr.lvclass` 加入目标工程。
+把仓库中的 `Login-UI` 目录拷贝到自己的工程目录；用 LabVIEW 打开工程后，把 `Login-UI.lvlib` 及其中的 `PwdMgr.lvclass` 添加到项目。
 
 ## 快速开始
 
@@ -94,17 +87,18 @@
 - 格式：每行一个用户，字段以 `|` 分隔，密码以 Base64 编码保存
 - 文件不存在时预置超级用户仍可登录，首次校验后按当前用户表生成该文件
 
-### 预置超级用户
-
-| 用户名 | 密码 | 角色 |
-| --- | --- | --- |
-| `superman` | `123456` | Admin |
-| `admin` | `admin` | Admin |
-
 > [!WARNING]
 > 密码以 Base64 编码保存，不是加密，密码库文件应按敏感文件管理。
+
+### 预置超级用户
+
+> [!WARNING]
+> 组件内置两个公开的超级用户，始终有效，且不会出现在用户管理列表中、无法通过界面删除：
 >
-> 两个预置超级用户由程序内置且始终有效，不会出现在用户管理列表中，也无法通过界面删除；正式发布前请评估是否需要修改实现。
+> - `superman` / `123456`
+> - `admin` / `admin`
+>
+> 正式使用前请修改为自己的超级用户：修改 `Login-UI/PwdMgr/_support/_Predefined_SuperUser.vi` 中的预置用户表，不要沿用默认账号和密码。
 
 ## 窗口一览
 
@@ -116,18 +110,6 @@
 | `AddUser-Windows.vi` | 添加用户窗口 |
 | `EditUser-Window.vi` | 编辑用户窗口 |
 | `ChangePassword-Window.vi` | 修改自己的密码窗口 |
-
-## 目录结构
-
-```text
-Login-UI/
-├─ _Windows/   登录、用户管理、修改密码窗口
-├─ _Typedef/   User-Info.ctl、User-Role.ctl
-├─ _Support/   用户表与按键事件辅助 VI
-├─ Example/    示例 VI
-├─ PwdMgr/     密码库类与校验方法
-└─ Login-Options.ctl
-```
 
 ## 许可
 
